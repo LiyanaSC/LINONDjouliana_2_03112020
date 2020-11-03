@@ -1,4 +1,82 @@
-/*  */
+/* Style body */
+body
+{
+
+}
+
 /* style en tête */
+header
+{
+display: flex;
+flex-wrap: wrap;
+}
+/* en tête partie 1*/
+.header1
+{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+border: 1px black solid;
+
+
+}
+
+
+.logo
+{
+margin-left: px;
+flex: 3;
+}
+
+.part11 /* <div> boutons heb & act*/
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+border: 1px red solid;
+flex: 2;
+text-align: right;
+
+}
+
+.part12 /* <p> boutons heb & act*/
+{
+	display: flex;
+	border: 1px green solid;
+	flex: 1;
+	padding: auto;
+
+
+}
+
+.sinscrire
+{
+	display: flex;
+	color: rgb(35,105,243);
+	font-weight: bold;
+	flex:2;
+}
+/* en autres parties */
+.header2
+{
+
+}
+
+.header3
+{
+
+}
+
+.header4
+{
+
+}
+
+.header5
+{
+
+}
 /* style section */
 /* style pied de page */
