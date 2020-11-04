@@ -9,6 +9,8 @@ header
 {
 display: flex;
 flex-wrap: wrap;
+margin-left: 20px;
+margin-right: 20px;
 }
 /* en tête partie 1*/
 .header1
@@ -16,9 +18,9 @@ flex-wrap: wrap;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-justify-content: space-between;
 width: 100%;
-border: 1px black solid;
+
+
 
 
 }
@@ -26,38 +28,58 @@ border: 1px black solid;
 
 .logo
 {
+display: flex;
 margin-left: px;
 flex: 3;
 }
 
-.part11 /* <div> boutons heb & act*/
+.part11 /* <div> conteneur heb & act*/
 {
 display: flex;
 flex-direction: row;
-justify-content: flex-end;
-border: 1px red solid;
+
 flex: 2;
-text-align: right;
+max-width: 20%;
+
 
 }
 
-.part12 /* <p> boutons heb & act*/
+.part12 /* <a> élément heb & act*/
+{
+display: flex;
+color: rgb(40,40,40);
+flex: ;
+padding: auto;
+justify-content: space-around;
+margin: auto;
+text-decoration: none;
+
+
+}
+.part12:hover
+{
+	color: rgb(35,105,243);
+	border-top: 2px rgb(35,105,243) solid ;
+
+}
+
+.inscription
 {
 	display: flex;
-	border: 1px green solid;
-	flex: 1;
-	padding: auto;
+	font-weight: bold;
+	margin: auto;
 
 
 }
 
 .sinscrire
 {
-	display: flex;
-	color: rgb(35,105,243);
-	font-weight: bold;
-	flex:2;
+text-decoration: none;
+color: rgb(35,105,243);
+
 }
+
+
 /* en autres parties */
 .header2
 {
