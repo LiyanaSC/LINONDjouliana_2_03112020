@@ -1,7 +1,7 @@
 /* Style body */
 body
 {
-
+margin-top: 0%;
 }
 
 /* style en tête */
@@ -11,6 +11,7 @@ display: flex;
 flex-wrap: wrap;
 margin-left: 20px;
 margin-right: 20px;
+margin-top: 0%;
 }
 /* en tête partie 1*/
 .header1
@@ -42,26 +43,48 @@ flex: 2;
 max-width: 20%;
 
 
+
+
 }
 
 .part12 /* <a> élément heb & act*/
 {
 display: flex;
-color: rgb(40,40,40);
-flex: ;
-padding: auto;
+
+flex:1;
+
 justify-content: space-around;
-margin: auto;
-text-decoration: none;
+
 
 
 }
 .part12:hover
 {
+	display: flex;
 	color: rgb(35,105,243);
-	border-top: 2px rgb(35,105,243) solid ;
+	text-decoration-color: rgb(35,105,243);
+	border-top: 2px rgb(35,105,243) solid;
+	
+}
+
+.part13
+{
+text-decoration: none;
+color: rgb(40,40,40);
+margin: auto;
+padding: 30px;
 
 }
+
+.part13:hover
+{
+	display: flex;
+	color: rgb(35,105,243);
+
+
+}
+
+
 
 .inscription
 {
