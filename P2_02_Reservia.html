@@ -5,41 +5,95 @@
 
             <meta charset=« utf-8 » />
             <title> Reservia </title>
-            <link rel="stylesheet" href="P2_03_Reservia.css">
+            <link rel="stylesheet" href="try.css">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/29576c135b.js" crossorigin="anonymous"></script>
+
 
         </head>
 
         <body>
             <!-- en tête-->
-            <header>
-                <!-- entête partie1-->
-                <div class="header1"> 
-                            <div class="logo"><p><img src="Reservia.png" alt="logo Reservia" width="80px"></p></div>
+            <header class="header">
+               
+                <!-- entête navigation-->
+                <div class="hautdepage"> 
+                            <div class="logo">
+                                <p><img src="Reservia.png" alt="logo Reservia" width="90px"></p>
+                            </div>
                              
-                            <div class="part11">
-                                    <div class="part12"><a href="#"class="part13">Hébergements</a></div>
-                                    <div class="part12"><a href="#" class="part13">activités</a></div>
+                               
+                            <ul class="navigation">
+                                <li class="deconav"><a href="#"  class="heb_act">Hébergements</a></li>
+                                <li class="deconav"><a href="#"  class="heb_act">Activités</a></li> 
+                                <li class="deconav"><a href="#" class="inscription">S'inscrire</a></li>
+                            </ul>
+                               
+
+                           
                             </div>
-
-                            <div class="inscription"><a href="#" class="sinscrire">S'inscrire</a>
-                            </div>
                 </div>
 
-                <div class="header2">
-                    <h1 class="">Trouver votre hébergement pour des vacances de rêve</h1><br/>
-                    <p>En plein centre ville ou en pleine nature</p>
+                <div class="titre">
+                    <h2 class="">Trouver votre hébergement pour des vacances de rêve</h2>
+                    <p class="description">En plein centre ville ou en pleine nature</p>
                 </div>
 
-                <div class="header3">
+                <div class="recherche">
+                    <label class="map" for="site-search"><i class="fas fa-map-marker-alt"></i></label>
+
+                    <input type="search" id="recherche" name="s"
+                     aria-label="Search through site content" placeholder="Marseille, France">
+
+                    <button class="boutonrecherche">Rechercher</button>
                     
                 </div>
 
-                <div class="header4">
+                <div class="filtres">
+                    <p class="textefiltre">Filtres</p>
+
+                    <div class="filtresindiv">
+                       <label class="iconsfiltres"> <i class="fas fa-money-bill-wave"></i></label>
+
+                       <input type="button" value="Économique" class="boutonsfiltres">
+                    </div>
+
+                    <div class="filtresindiv">
+                        <label class="iconsfiltres"> <i class="fas fa-child"></i></label>
+
+
+                       <input type="button" value="Familial" class="boutonsfiltres">
+
+                        
+                    </div>
+
+                    <div class="filtresindiv">
+                       <label class="iconsfiltres"> <i class="fas fa-heart"></i></label>
+
+
+                       <input type="button" value="Romantique" class="boutonsfiltres">
+
+                       
+                    </div>
+
+                      <div class="filtresindiv">
+                       <label class="iconsfiltres"> <i class="fas fa-dog"></i></label>
+
+
+                       <input type="button" value="Animaux autorisé" class="boutonsfiltres">
+
+                       
+                    </div>
+
+                 
                     
                 </div>
 
-                <div class="header5">
+                <div class="informations">
+                     <label class="iconinfo"><i class="fas fa-info"></i></label>
                     
+                     <p class="info">Plus de <output name="500">500 </output>logements sont disponible dans cette ville
+                    </p>
                 </div>
             </header>
             
@@ -61,5 +115,3 @@
         </body>
         
     </html>
-    
-
