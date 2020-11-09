@@ -1,127 +1,260 @@
+
+
 /* Style body */
 body
 {
 margin-top: 0%;
+margin-left: 50px;
+margin-right: 50px;
 }
 
 /* style en tête */
-header
+.header
+{
+	display: flex;
+	flex-direction: column;
+}
+.hautdepage
 {
 display: flex;
+justify-content: space-between;
 flex-wrap: wrap;
-margin-left: 20px;
-margin-right: 20px;
-margin-top: 0%;
+height: 100px;
 }
-/* en tête partie 1*/
-.header1
-{
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-width: 100%;
-
-
-
-
-}
-
-
 .logo
 {
 display: flex;
-margin-left: px;
-flex: 3;
+flex:2;
+margin: auto;
 }
 
-.part11 /* <div> conteneur heb & act*/
+.navigation
 {
 display: flex;
-flex-direction: row;
-
-flex: 2;
-max-width: 20%;
-
-
-
-
-}
-
-.part12 /* <a> élément heb & act*/
-{
-display: flex;
-
 flex:1;
-
+list-style-type: none;
 justify-content: space-around;
-
-
+margin-top: 0%;
+margin-bottom: 0%;
+padding: 0%;
+text-align: 
 
 }
-.part12:hover
+.deconav
 {
-	display: flex;
-	color: rgb(35,105,243);
-	text-decoration-color: rgb(35,105,243);
-	border-top: 2px rgb(35,105,243) solid;
-	
+display: flex;
+flex:2;
+
+justify-content: center;
+border: 1px rgb(0,0,0,0) solid;
+text-align: center;
+
+
+
+
+
 }
 
-.part13
+.deconav:hover
+{
+border-top: 1px rgb(35,105,243) solid;
+color: rgb(35,105,243);
+
+
+}
+
+.heb_act
 {
 text-decoration: none;
-color: rgb(40,40,40);
 margin: auto;
-padding: 30px;
+color: rgb(40,40,40);
+font-family: 'Raleway', sans-serif;
 
 }
 
-.part13:hover
+.heb_act:hover
 {
-	display: flex;
-	color: rgb(35,105,243);
-
-
+color: rgb(35,105,243);
 }
-
-
 
 .inscription
 {
-	display: flex;
-	font-weight: bold;
-	margin: auto;
-
-
-}
-
-.sinscrire
-{
 text-decoration: none;
+
 color: rgb(35,105,243);
-
+margin: auto;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
 }
-
-
 /* en autres parties */
-.header2
+
+.titre
 {
+display: flex;
+flex-direction: column;
+
+
+}
+h2
+{
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+flex: 1;
+margin-bottom: 0;
+}
+
+.description
+{
+font-family: 'Raleway', sans-serif;
+margin-top: 0;
+
+}
+.recherche
+{
+	display: flex;
+	
+	justify-content: flex-start;
+
+	height: 50px;
+	
+}
+
+#recherche
+{
+border: 1px rgb(242,242,242) solid;
+margin-right: 0%;
+margin-left: 0%;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 1em;
+height: 50px;
 
 }
 
-.header3
+.boutonrecherche
 {
+margin-left: 0%;
+border: 1px rgb(35,105,243) solid;
+background-color: rgb(35,105,243);
+font-family: 'Raleway', sans-serif;
+font-size: 1em;
+color: white;
+font-weight: bold;
+height: 50px;
+border-radius: 0px 10px 10px 0px;
+}
+
+
+.map
+{
+
+
+margin-right: 0%;
+background-color: rgb(242,242,242);
+display: flex;
+align-items: center;
+width: 50px;
+border-radius: 10px 0px 0px 10px;
+}
+
+.fas
+{
+	margin: auto;
+}
+
+.filtres
+{
+display: flex;
+justify-content: flex-start;
+height: 50px;
+align-items: baseline;
+margin-bottom: 25px;
+
+
+}
+.filtresindiv
+{
+display: flex;
+margin-top: 25px;
+margin-left: 25px;
+height: 50px;
+border-top: 2px rgb(242,242,242) solid;
+border-right: 2px rgb(242,242,242) solid;
+border-bottom: 2px rgb(242,242,242) solid;
+border-left: 1px rgb(224,235,255) solid;
+border-radius: 50px 50px 50px 50px;	
+
+}
+.filtresindiv:hover
+{
+background-color: rgb(35,105,243); 
 
 }
 
-.header4
+
+
+.iconsfiltres
 {
+	color: rgb(35,105,243);
+margin-right: 0%;
+background-color: rgb(224,235,255);
+display: flex;
+align-items: center;
+width: 50px;
+border: 1px rgb(224,235,255) solid;
+border-radius: 50px 50px 50px 50px;
 
 }
 
-.header5
+.boutonsfiltres
 {
+color: black;	
+font-family: 'Raleway', sans-serif;
+background-color: rgb(0,0,0,0);
+border-radius: 0px 50px 50px 0px;
+border:0;
+font-weight: bold;
+font-size: 1em;
+}
+.boutonsfiltres:hover
+{
+background-color: rgb(35,105,243); 
+
 
 }
+
+.textefiltre
+{
+font-size: 1em;
+font-weight: bold;
+font-family: 'Raleway', sans-serif;
+}
+
+.informations
+{
+display: flex;
+justify-content: flex-start;
+align-items: baseline;
+margin-top: 25px;
+
+}
+.iconinfo
+{
+	display: flex;
+	align-items: center;
+	color: rgb(35,105,243);
+	margin-right: 20px;
+	border: 1px rgb(242,242,242) solid;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px 20px 20px 20px;
+	align-items: center;	
+}
+
+.info
+{
+	font-family: 'Raleway', sans-serif;
+}
+
 /* style section */
 /* style pied de page */
