@@ -601,9 +601,7 @@ font-family: 'Raleway', sans-serif;
 	justify-content: flex-start;
 	flex-direction: column;
 	flex:1;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 50px;
+	margin:50px;
 }
 
 
