@@ -8,6 +8,20 @@ body
 	margin-right: 50px;
 }
 
+a
+{
+	text-decoration: none;
+}
+
+h2
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+font-family: 'Raleway', sans-serif;
+}
+
 /* style en tête */
 	.header
 	{
@@ -263,7 +277,7 @@ body
 		justify-content: space-between;
 		flex-wrap: wrap;
 		padding: 0%;
-	border: 1px green solid;
+	
 
 
 
@@ -330,10 +344,7 @@ body
 
 			}
 		
-			a
-			{
-				text-decoration: none;
-			}
+		
 			.nomannonce
 			{
 				font-weight: bold;
@@ -391,7 +402,7 @@ body
 				margin-bottom: 0%;
 				background-color: rgb(242,242,242);
 				border-radius: 20px 20px 20px 20px;
-			border:1px red solid;
+			
 			}
 			.hautpopulaires
 			{ 
@@ -461,6 +472,108 @@ body
 
 			
 			}
+.activites
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	
+
+}
+			.photoactivites
+			{
+				display: flex;
+				flex-direction: row; 
+				justify-content: space-between;
+
+
+			}
+			.grossesimages
+			{
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				border-radius: 20px 20px 20px 20px;
+				width: 300px;
+				padding: 0%;
+				overflow: hidden;
+				height: 450px;
+				box-shadow: 0px 0px 20px rgb(210,210,210);
+				
+			}
+			
+			.textesousimage
+			{
+			
+				color: black;
+				font-weight: bold;
+				margin: 20px;
+			}
+			.photovieuxport
+			{
+			max-height: 400px;
+			}
+
+				.deuximages
+				{
+					display: flex;
+					flex-direction: column;
+					width: 300px;
+					height: 450px;
+					
+					justify-content: space-between;
+				
+
+				}
+				/*.imagehaut
+				{
+					display: flex;
+					flex: 2;			
+				}*/
+				.moyennesimages
+				{
+					display: flex;
+					flex-direction: column;
+					box-shadow: 0px 0px 20px rgb(210,210,210);
+					
+					border-radius: 20px 20px 20px 20px;
+					width: 300px;
+					padding: 0%;
+					margin-bottom: 20px;
+					overflow: hidden;
+					
+
+				}
+				.photoshaut
+				{
+					min-width: 300px;
+					max-height: 180px;
+				}
+				/*.imagebas
+				{
+					display: flex;
+					flex: 1;
+				}*/
+				.photosbas
+				{
+					min-width: 300px;
+					max-height: 120px;
+				}
+				.petitesimages
+				{
+					display: flex;
+					flex: 1;
+					flex-direction: column;
+					justify-content: space-between;
+					border-radius: 20px 20px 20px 20px;
+					width: 300px;
+					margin-top:20px;
+					padding: 0%;box-shadow: 0px 0px 20px rgb(210,210,210);
+					box-shadow: 0px 0px 20px rgb(210,210,210);
+					overflow: hidden;
+					
+				}
 
 
 
