@@ -1,10 +1,11 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 
-    <html>
+    <html lang="fr">
         <head>
-
-            <meta charset=« utf-8 » />
+            
             <title> Reservia </title>
+            <meta charset="UTF-8">
+            
             <link rel="stylesheet" href="P2_03_Reservia.css">
             <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
             <script src="https://kit.fontawesome.com/29576c135b.js" crossorigin="anonymous"></script>
@@ -19,19 +20,19 @@
                 <!-- entête navigation-->
                 <div class="hautdepage"> 
                             <div class="logo">
-                                <p><img src="Reservia.png" alt="logo Reservia" width="90px"></p>
+                                <p><img src="Reservia.png" alt="logo Reservia" class="logoreservia"></p>
                             </div>
                              
                                
                             <ul class="navigation">
-                                <li class="deconav"><a href="#"  class="heb_act">Hébergements</a></li>
-                                <li class="deconav"><a href="#"  class="heb_act">Activités</a></li> 
+                                <li class="deconav"><a href="#ancrehebergement"  class="heb_act">Hébergements</a></li>
+                                <li class="deconav"><a href="#ancreactivites"  class="heb_act">Activités</a></li> 
                                 <li class="deconav"><a href="#" class="inscription">S'inscrire</a></li>
                             </ul>
                                
 
                            
-                            </div>
+                            
                 </div>
 
                 <div class="titre">
@@ -40,7 +41,7 @@
                 </div>
 
                 <div class="recherche">
-                    <label class="map" for="site-search"><i class="fas fa-map-marker-alt"></i></label>
+                    <label class="map"><i class="fas fa-map-marker-alt"></i></label>
 
                     <input type="search" id="recherche" name="s"
                      aria-label="Search through site content" placeholder="Marseille, France">
@@ -102,7 +103,7 @@
             <main>
 
                 
-                 <section class="resultatshebergements">
+                 <section class="resultatshebergements" id="ancrehebergement">
 
 
                                 <div class="hauthebergements">
@@ -309,7 +310,7 @@
 
             </main>
 
-            <section class="activites">
+            <section class="activites" id="ancreactivites">
                     <h2>Activités à Marseille</h2>
                     <div class="photoactivites">
                         <a href="#">

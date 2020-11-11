@@ -42,6 +42,10 @@ font-family: 'Raleway', sans-serif;
 				flex-wrap: wrap;
 				height: 100px;
 			}
+			.logoreservia
+			{
+			width:90px;
+			}
 			.logo
 			{
 				display: flex;
@@ -58,7 +62,7 @@ font-family: 'Raleway', sans-serif;
 				margin-top: 0%;
 				margin-bottom: 0%;
 				padding: 0%;
-				text-align: 
+				 
 
 			}
 			.deconav
@@ -156,7 +160,7 @@ font-family: 'Raleway', sans-serif;
 			.boutonrecherche
 			{
 				margin-left: 0%;
-				border: 1px rgb(35,105,243) solid;
+				border: 1px rgb(0,0,0,0) solid;
 				background-color: rgb(35,105,243);
 				font-family: 'Raleway', sans-serif;
 				font-size: 1em;
@@ -223,7 +227,7 @@ font-family: 'Raleway', sans-serif;
 				display: flex;
 				align-items: center;
 				width: 50px;
-				border: 1px rgb(224,235,255) solid;
+				
 				border-radius: 50px 50px 50px 50px;
 
 			}
@@ -325,7 +329,7 @@ font-family: 'Raleway', sans-serif;
 			.lienannonce
 			{
 				display: flex;
-				align-items: column;
+		
 				width: 250px;
 				height: 200px;
 				border: 4px white solid ;
