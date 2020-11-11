@@ -496,6 +496,8 @@ font-family: 'Raleway', sans-serif;
 				flex-direction: row; 
 				justify-content: space-between;
 
+			border:1px red solid;
+
 
 			}
 			.grossesimages
@@ -532,6 +534,7 @@ font-family: 'Raleway', sans-serif;
 					height: 450px;
 					
 					justify-content: space-between;
+
 				
 
 				}
@@ -567,7 +570,7 @@ font-family: 'Raleway', sans-serif;
 				.photosbas
 				{
 					min-width: 300px;
-					max-height: 120px;
+					max-height: 110px;
 				}
 				.petitesimages
 				{
