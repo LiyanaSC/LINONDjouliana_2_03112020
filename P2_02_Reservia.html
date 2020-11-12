@@ -14,25 +14,31 @@
         </head>
 
         <body>
-            <!-- en tête-->
+
+
+<!-- en tête-->
             <header class="header">
                
-                <!-- entête navigation-->
+<!-- entête navigation-->
                 <div class="hautdepage"> 
+
+        <!-- le logo-->
                             <div class="logo">
-                                <p><img src="Reservia.png" alt="logo Reservia" class="logoreservia"></p>
+                                <p class="preservia"><img src="Reservia.png" alt="logo Reservia" class="logoreservia"></p>
                             </div>
                              
-                               
-                            <ul class="navigation">
-                                <li class="deconav"><a href="#ancrehebergement"  class="heb_act">Hébergements</a></li>
-                                <li class="deconav"><a href="#ancreactivites"  class="heb_act">Activités</a></li> 
-                                <li class="deconav"><a href="#" class="inscription">S'inscrire</a></li>
-                            </ul>
+        <!-- ancres hebergement et activité-->      
+                            <div class="ancres">
+                                <a href="#ancrehebergement"  class="heb_act">Hébergements</a>
+                                <a href="#ancreactivites"  class="heb_act">Activités</a>
+                            </div>
+
+        <!-- entête s'incrire-->
+                            <a href="#" class="inscription">S'inscrire</a>
                                
 
                            
-                            
+        <!-- entête titre du site-->                    
                 </div>
 
                 <div class="titre">
@@ -40,25 +46,36 @@
                     <p class="description">En plein centre ville ou en pleine nature</p>
                 </div>
 
+
+        <!-- entête barre de recherche-->
                 <div class="recherche">
+
+                <!--icon de recherche-->    
                     <label class="map"><i class="fas fa-map-marker-alt"></i></label>
 
+                <!-- formulaire de recherche-->    
                     <input type="search" id="recherche" name="s"
                      aria-label="Search through site content" placeholder="Marseille, France">
 
+                <!-- bouton de recherche-->
                     <button class="boutonrecherche">Rechercher</button>
                     
                 </div>
 
+        <!-- entête filtres de recherche-->
                 <div class="filtres">
+
+                <!-- titre filtres-->
                     <p class="textefiltre">Filtres</p>
 
+                <!-- filtre économique-->
                     <div class="filtresindiv">
                        <label class="iconsfiltres"> <i class="fas fa-money-bill-wave"></i></label>
 
                        <input type="button" value="Économique" class="boutonsfiltres">
                     </div>
 
+                <!-- filtre familial-->
                     <div class="filtresindiv">
                         <label class="iconsfiltres"> <i class="fas fa-child"></i></label>
 
@@ -68,6 +85,7 @@
                         
                     </div>
 
+                <!--filtre romantique-->
                     <div class="filtresindiv">
                        <label class="iconsfiltres"> <i class="fas fa-heart"></i></label>
 
@@ -77,6 +95,7 @@
                        
                     </div>
 
+                <!--filtre animaux-->
                       <div class="filtresindiv">
                        <label class="iconsfiltres"> <i class="fas fa-dog"></i></label>
 
@@ -84,11 +103,10 @@
                        <input type="button" value="Animaux autorisé" class="boutonsfiltres">
 
                        
-                    </div>
-
-                 
-                    
+                    </div>     
                 </div>
+
+        <!-- entête informations-->
 
                 <div class="informations">
                      <label class="iconinfo"><i class="fas fa-info"></i></label>
@@ -99,19 +117,22 @@
             </header>
             
 
-            <!-- section -->
+<!-- partie principale -->
             <main>
 
-                
+        <!-- main résultat hébergement-->        
                  <section class="resultatshebergements" id="ancrehebergement">
 
 
-                                <div class="hauthebergements">
-                                    <h2>Hébergement à <output>Marseille</output></h2>
-                                </div>
+                <!-- titre hébergement-->
+                    <div class="hauthebergements">
+                        <h2>Hébergement à <output>Marseille</output></h2>
+                    </div>
 
-
+                <!-- block hebergement-->
                                 <div class="resultathaut">
+
+                        <!-- hébergement 1-->
                                     <div class="lienannonce">
                                         <a href="#">
                                             <img src="pics/aubergelacannebiere.jpg" alt="auberge de la cannebière" class="formatphoto">
@@ -124,12 +145,11 @@
                                                     <span class="fas fa-star checked"></span>
                                                     <span class="fas fa-star notchecked"></span>
                                                 </div>
-
                                             </div>
-
                                         </a>
                                     </div>
 
+                        <!-- hébergement 2-->
                                     <div class="lienannonce">
                                         <a href="#">
                                             <img src="pics/hotelduport.jpg" alt="hotel du port" class="formatphoto">
@@ -141,12 +161,13 @@
                                                     <span class="fas fa-star checked"></span>
                                                     <span class="fas fa-star checked"></span>
                                                     <span class="fas fa-star checked"></span>
-                                        </div>
+                                                 </div>
                                             </div>
                                         </a>
 
                                     </div>
 
+                        <!-- hébergement 3-->
                                     <div class="lienannonce">
                                         <a href="#">
                                             <img src="pics/hotellesmouettes.jpg" alt="hotel les mouettes" class="formatphoto">
@@ -157,7 +178,7 @@
                                                     <span class="fas fa-star checked"></span>
                                                     <span class="fas fa-star checked"></span>
                                                     <span class="fas fa-star notchecked"></span>
-                                        </div>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
@@ -165,9 +186,8 @@
 
 
 
-
                                 <div class="resultathaut">
-                                    
+                        <!-- hébergement 4-->            
                                     <div class="lienannonce">
                                         <a href="#">
                                             <img src="pics/hoteldelamer.jpg" alt="hotel de la mer" class="formatphoto">
@@ -179,12 +199,13 @@
                                                     <span class="fas fa-star checked"></span>
                                                     <span class="fas fa-star notchecked"></span>
                                                     <span class="fas fa-star notchecked"></span>
-                                        </div>
+                                                </div>
                                             </div>
 
                                         </a>
                                     </div>
 
+                        <!-- hébergement 5-->
                                     <div class="lienannonce">
                                         <a href="#">
                                             <img src="pics/aubergelepanier.jpg" alt="auberge le panier" class="formatphoto">
@@ -195,12 +216,12 @@
                                                     <span class="fas fa-star checked"></span>
                                                     <span class="fas fa-star checked"></span>
                                                     <span class="fas fa-star notchecked"></span>
-                                        </div>
+                                                </div>
                                             </div>
                                         </a>
                                     </div>
 
-                                 
+                        <!-- hébergement 6-->         
                                     <div class="lienannonce">
                                         <a href="#">
                                             <img src="pics/hotelchezamina.jpg" alt="hotel chez amina" class="formatphoto">
@@ -212,39 +233,34 @@
                                                     <span class="fas fa-star checked"></span>
                                                     <span class="fas fa-star checked"></span>
                                                     <span class="fas fa-star checked"></span>
-                                        </div>
+                                               </div>
                                             </div>
                                         </a>
                                     </div>
 
-                                    
-                               
-
-
-
                                 </div>
 
+                <!-- afficher plus -->
                                 <div class="hauthebergements">
                                     <a href="#" class="afficherplus">Afficher plus</a>
                                 </div>
-                                
-
                 </section>
 
 
 
-
+        <!-- main résultats populaires-->
                 <section class="resultatspopulaires">
-                   
+                
+                <!-- titre populaire-->       
                                <div class="hautpopulaires">
                                     <h2>Les plus populaires</h2>
                                     <label class="iconpopulaires"> <i class="fas fa-chart-line"></i></label>
                                </div>
 
-
-
-
+                <!-- block populaire -->
                                <div class="hebergementspopulaires">
+
+                        <!-- hebergement populaire 1-->
                                        <div>
                                                 <a href="#">
                                                 <div class="lienpopulaire">
@@ -263,7 +279,7 @@
                                                 </a>
                                         </div>
 
-
+                        <!-- hebergement populaire 2-->
                                        <div>
                                                 <a href="#">
                                                 <div class="lienpopulaire">
@@ -282,7 +298,7 @@
                                                 </a>
                                         </div>
 
-
+                        <!-- hebergement populaire 3-->
                                        <div>
                                                 <a href="#">
                                                 <div class="lienpopulaire">
@@ -300,18 +316,16 @@
                                                 </div> 
                                                 </a>
                                         </div>
-
-
                                 </div>
-
-                    
                 </section>
-
-
             </main>
 
+<!-- partie complémentaire: activités-->        
             <section class="activites" id="ancreactivites">
+
                     <h2>Activités à Marseille</h2>
+
+            <!-- activité 1-->
                     <div class="photoactivites">
                         <a href="#">
                             <div class="grossesimages">
@@ -320,9 +334,10 @@
                             </div>
                         </a>
 
-
+            
                         <div class="deuximages">
 
+            <!-- activité 2-->
                                 <a href="#" class="imagehaut">
                                 <div class="moyennesimages">
                                     <div><img src="pics/fortdepomegues.jpg" alt="photo du fort de pomègues" class="photoshaut"></div>
@@ -330,6 +345,7 @@
                                 </div>
                                 </a >
 
+            <!-- activité 3-->
                                 <a href="#" class="imagebas">
                                  <div class="petitesimages">
                                     <div><img src="pics/ilesdufrioul.jpg" alt="photo des îles du frioul" class="photosbas"></div>
@@ -339,6 +355,7 @@
 
                         </div>
 
+            <!-- activité 4-->
                         <a href="#">
                             <div class="grossesimages">
                                 <div><img src="pics/parcnational.jpg" alt="photo du parc nationel des calenques" ></div>
@@ -348,6 +365,7 @@
 
                            <div class="deuximages">
 
+            <!-- activité 5-->
                                 <a href="#" class="imagehaut">
                                 <div class="moyennesimages">
                                     <div><img src="pics/notredame.jpg" alt="photo de notre dame de la garde" class="photoshaut"></div>
@@ -355,23 +373,19 @@
                                 </div>
                                 </a >
 
+            <!-- activité 6-->
                                 <a href="#" class="imagebas">
                                  <div class="petitesimages">
                                     <div><img src="pics/parclongchamp.jpg" alt="photo du parc Lonchamp" class="photosbas"></div>
                                     <p class="textesousimage">Parc Lonchamp</p>
                                 </div>
                                 </a>
-
                         </div>
-
-
-
                     </div>
-
             </section>
 
 
-            <!-- pied de page -->
+<!-- pied de page -->
             <footer class="pieddepage">
                 <nav class="divers">
                     <h3> A propos</h3><br/>
@@ -393,9 +407,5 @@
                 </nav>
 
             </footer>
-                
-
-
-        </body>
-        
+        </body>        
     </html>

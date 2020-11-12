@@ -28,90 +28,85 @@ font-family: 'Raleway', sans-serif;
 }
 
 /* style en tête */
-	.header
-	{
-		display: flex;
-		flex-direction: column;
-			margin-left: 50px;
+.header
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
 	margin-right: 50px;
-	}
+}
 			.hautdepage
 			{
 				display: flex;
 				justify-content: space-between;
 				flex-wrap: wrap;
+
 				height: 100px;
 			}
-			.logoreservia
-			{
-			width:90px;
-			}
-			.logo
-			{
-				display: flex;
-				flex:2;
-				margin: auto;
-			}
+							.logo
+							{
+							
+								flex-basis: 70%;
+								margin: 0;
+								
+	
+							}
+							.preservia
+							{
+							align-items: center;
+	
 
-			.navigation
-			{
-				display: flex;
-				flex:1;
-				list-style-type: none;
-				justify-content: space-around;
-				margin-top: 0%;
-				margin-bottom: 0%;
-				padding: 0%;
-				 
-
-			}
-			.deconav
-			{
-				display: flex;
-				flex:2;
-
-				justify-content: center;
-				border: 1px rgb(0,0,0,0) solid;
-				text-align: center;
+							}
+							.logoreservia
+							{
+							width:90px;
+							
+							}
 
 
+							.ancres
+							{
+								display: flex;
+								flex-basis: 20%;
+								justify-content: space-around;
+								margin-top: 0%;
+								margin-bottom: 0%;
+								padding: 0%;
+								 
 
+							}
 
+							.heb_act
+							{
+								display: flex;
+								flex-basis: 50%;
+								border: 2px rgb(0,0,0,0) solid;
+								text-decoration: none;
+								margin: auto;
+								color: rgb(40,40,40);
+								font-family: 'Raleway', sans-serif;
+								height: 100px;
+								align-items: center;
+								justify-content: center;
 
-			}
+							}
 
-			.deconav:hover
-			{
-				border-top: 1px rgb(35,105,243) solid;
-				color: rgb(35,105,243);
+							.heb_act:hover
+							{
+								border-top: 2px rgb(35,105,243) solid;
+								color: rgb(35,105,243);
+							}
 
+							.inscription
+							{
+								text-decoration: none;
 
-			}
-
-			.heb_act
-			{
-				text-decoration: none;
-				margin: auto;
-				color: rgb(40,40,40);
-				font-family: 'Raleway', sans-serif;
-
-			}
-
-			.heb_act:hover
-			{
-				color: rgb(35,105,243);
-			}
-
-			.inscription
-			{
-				text-decoration: none;
-
-				color: rgb(35,105,243);
-				margin: auto;
-				font-family: 'Raleway', sans-serif;
-				font-weight: bold;
-			}
-			/* en autres parties */
+								color: rgb(35,105,243);
+								margin: auto;
+								font-family: 'Raleway', sans-serif;
+								font-weight: bold;
+							}
+							/* en autres parties */
 
 			.titre
 			{
