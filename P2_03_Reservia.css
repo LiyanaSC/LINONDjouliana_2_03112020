@@ -461,7 +461,7 @@ margin-right: 50px;
 	flex-direction: row;
 	width: 100%;
 	align-items: center;
-	margin-bottom: 0;
+	margin: 20px;
 	padding: 0;
 	justify-content: space-around;
 	font-family: 'Raleway', sans-serif;
@@ -708,10 +708,20 @@ overflow: hidden;
 				flex-basis: 100%;
 				padding-left: 20px;
 			}
+			.recherche
+			{
+				display: flex;
+				flex-basis: 100%;
+				justify-content: center;			}
 			.textefiltre
 			{
 				
 				flex-basis: 100%;
+				margin: 20px;
+			}
+			.filtres
+			{
+				height: 300px;
 			}
 
 			.resultatspopulaires
@@ -722,6 +732,7 @@ overflow: hidden;
 				padding: 0;
 				border-radius: 0px;
 			}	
+
 			.resultatshebergements
 			{
 				order:2;
