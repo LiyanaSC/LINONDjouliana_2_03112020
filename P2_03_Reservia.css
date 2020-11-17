@@ -202,10 +202,27 @@ h1
 	font-weight: bold;
 	height: 50px;
 	border-radius: 0px 10px 10px 0px;
+	align-items: baseline;
+	flex-direction: row;
+	overflow: hidden;
+
 }
-
-
+.loupe
+{
+	margin-top: 0%;
+	text-indent: -9999px;
+  line-height: 0;
+}
+.searchword
+{
+margin-top:12px;
+}
+::placeholder 
+{ 
+  color: black;
+  opacity: 1;
 		/* entête filtres */
+ }
 .filtres
 {
 	display: flex;
@@ -291,6 +308,7 @@ h1
 	word-wrap: break-word;
 	height: 100px;
 	margin-bottom: 25px;
+	margin-top: 10px;
 
 }
 .iconinfo
@@ -459,11 +477,11 @@ margin-right: 50px;
 { 
 	display: flex;
 	flex-direction: row;
-	width: 100%;
+	flex-basis: 100%;
 	align-items: center;
 	margin: 20px;
 	padding: 0;
-	justify-content: space-around;
+	justify-content: space-between;
 	font-family: 'Raleway', sans-serif;
 	
 }
@@ -501,7 +519,7 @@ margin-right: 50px;
 }
 .formatpopulaire
 {
-	height: 130px;
+	height: 100%;
 	width: 130px;
 	margin: 0%;
 	
@@ -712,7 +730,22 @@ overflow: hidden;
 			{
 				display: flex;
 				flex-basis: 100%;
-				justify-content: center;			}
+				justify-content: flex-start;
+				margin-left: 20px;	
+
+			}
+			.searchword
+			{
+				 text-indent: -9999px;
+  line-height: 0;
+			}
+			.loupe
+
+{
+	color: white;
+	text-indent: 0;
+  line-height: 1em;
+}
 			.textefiltre
 			{
 				
@@ -721,7 +754,11 @@ overflow: hidden;
 			}
 			.filtres
 			{
-				height: 300px;
+				min-height: 210px;
+			}
+			.informations
+			{
+			margin:20px;	
 			}
 
 			.resultatspopulaires
