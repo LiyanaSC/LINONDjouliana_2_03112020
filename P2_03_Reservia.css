@@ -830,7 +830,10 @@ overflow: hidden;
 				visibility: hidden;
 			}
 
-
+#recherche
+{
+border-radius: 0px;
+}
 
 
 
