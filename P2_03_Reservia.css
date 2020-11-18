@@ -223,7 +223,7 @@ margin-top:12px;
   opacity: 1;
 		/* entête filtres */
  }
-/* Focus */ *:focus::-webkit-input-placeholder { opacity: 0; } /* Chrome 56, Safari 9 */ *:focus:-moz-placeholder { opacity: 0; } /* FF 4-18 */ *:focus::-moz-placeholder { opacity: 0; } /* FF 19-50 */ *:focus:-ms-input-placeholder { opacity: 0; } /* IE 10+ */ *:focus::placeholder { opacity: 0; } /* Modern Browsers */
+*:focus::placeholder { opacity: 0; } 
 .filtres
 {
 	display: flex;
@@ -250,7 +250,7 @@ margin-top:12px;
 .filtresindiv
 {
 	display: flex;
-	flex-basis: 20%
+	flex-basis: 20%;
 	margin-top: 25px;
 	margin-left: 25px;
 	margin-bottom: 15px;
