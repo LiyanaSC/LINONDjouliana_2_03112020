@@ -229,7 +229,7 @@ margin-top:12px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	height: 100px;
+	min-height: 100px;
 	
 	
 	flex-wrap: wrap;
@@ -754,6 +754,9 @@ overflow: hidden;
 			.loupe
 
 {
+	height: 30px;
+	width: 30px;
+	margin:auto;
 	color: white;
 	text-indent: 0;
   line-height: 1em;
@@ -766,7 +769,7 @@ overflow: hidden;
 			}
 			.filtres
 			{
-				min-height: 210px;
+				max-height: 250px;
 			}
 			.informations
 			{
