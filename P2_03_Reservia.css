@@ -223,6 +223,7 @@ margin-top:12px;
   opacity: 1;
 		/* entête filtres */
  }
+/* Focus */ *:focus::-webkit-input-placeholder { opacity: 0; } /* Chrome 56, Safari 9 */ *:focus:-moz-placeholder { opacity: 0; } /* FF 4-18 */ *:focus::-moz-placeholder { opacity: 0; } /* FF 19-50 */ *:focus:-ms-input-placeholder { opacity: 0; } /* IE 10+ */ *:focus::placeholder { opacity: 0; } /* Modern Browsers */
 .filtres
 {
 	display: flex;
@@ -401,7 +402,6 @@ margin-right: 50px;
 	flex-direction: column;
 	flex-basis: 100%;
 
-	
 }
 .descriptionannonce
 {
@@ -409,11 +409,13 @@ margin-right: 50px;
 	justify-content: flex-start;
 	flex-direction: column;
 	font-family: 'Raleway', sans-serif;
-	flex-basis: 40%;
+	
+	max-height: 30%;
 	background-color: white;
-	margin: 0%;
+	margin-bottom: 0%;
 	word-wrap: break-word;
 	padding: 5px;
+
 }
 
 
@@ -437,9 +439,10 @@ margin-right: 50px;
 {
 	object-fit: cover;
 	width: 100%;
-	min-height: 140px;
+	min-height: 170px;
 	max-height: 170px;
 	object-position: left bottom;
+
 
 }
 .notchecked
@@ -528,7 +531,7 @@ margin-right: 50px;
 {
 	object-fit: cover;
 	width: 30%;
-	height: 160px;
+	max-height: 175px;
 	object-position: left bottom;
 
 	margin: 0%;
