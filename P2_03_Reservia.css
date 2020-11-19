@@ -165,7 +165,7 @@ h1
 
 
 	margin-right: 0%;
-	background-color: rgb(242,242,242);
+	background-color: #F2F2F2;
 	display: flex;
 	align-items: center;
 	width: 50px;
@@ -255,9 +255,9 @@ margin-top:12px;
 	margin-left: 25px;
 	margin-bottom: 15px;
 	height: 51px;
-	border-top: 2px rgb(242,242,242) solid;
-	border-right: 2px rgb(242,242,242) solid;
-	border-bottom: 2px rgb(242,242,242) solid;
+	border-top: 2px #F2F2F2 solid;
+	border-right: 2px #F2F2F2 solid;
+	border-bottom: 2px #F2F2F2 solid;
 	border-left: 1px rgb(224,235,255) solid;
 	border-radius: 50px 50px 50px 50px;	
 
@@ -472,7 +472,7 @@ margin-right: 50px;
 	flex-direction: column;
 	flex-basis: 32%;
 	margin-bottom: 0%;
-	background-color: rgb(242,242,242);
+	background-color: #F2F2F2;
 	border-radius: 20px 20px 20px 20px;
 
 
@@ -656,7 +656,7 @@ overflow: hidden;
 	display: flex;
 	flex-basis: 100%;
 	flex-direction: row;
-	background-color: rgb(217,217,217);
+	background-color: #F2F2F2;
 	margin-top:50px;
 	padding: 50px;
 }
