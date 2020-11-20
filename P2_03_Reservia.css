@@ -23,12 +23,16 @@ h2
 h3
 {
 	font-family: 'Raleway', sans-serif;
+
 }
 p{
 font-family: 'Raleway', sans-serif;
 margin:0;
 }
-
+.fas
+{
+	margin: auto;
+}
 /* style block */
 
 
@@ -79,17 +83,12 @@ width:90px;
 	height: 100px;
 	margin-top: 0%;
 	margin-bottom: 0%;
-	
-	 
-
 }
 
 .heb_act
 {
-	display: flex;
-	
+	display: flex;	
 	border: 2px rgb(0,0,0,0) solid;
-	text-decoration: none;
 	flex-basis: 20%;
 	color: rgb(40,40,40);
 	font-family: 'Raleway', sans-serif;
@@ -107,10 +106,7 @@ width:90px;
 				/* s'incrire */
 .inscription
 {	
-
-	text-decoration: none;
-
-	color: rgb(35,105,243);
+	color: #0065FC;
 	margin: auto;
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
@@ -121,6 +117,7 @@ width:90px;
 .titre
 {
 	display: flex;
+	flex-basis: 20%;
 	flex-direction: column;
 	padding: 0;
 	margin-bottom: 20px
@@ -131,7 +128,6 @@ h1
 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
-	flex: 1;
 	margin: 0;
 	font-size: 25px;
 	word-wrap: break-word;
@@ -142,18 +138,13 @@ h1
 {
 	font-family: 'Raleway', sans-serif;
 	margin-top: 0;
-
-
-
 }
 
 		/* entête barre de recherche */
 .recherche
 {
 	display: flex;
-	
 	justify-content: flex-start;
-
 	height: 50px;
 	margin-bottom: 20px;
 	
@@ -162,8 +153,6 @@ h1
 
 .map
 {
-
-
 	margin-right: 0%;
 	background-color: #F2F2F2;
 	display: flex;
@@ -172,16 +161,14 @@ h1
 	border-radius: 10px 0px 0px 10px;
 }
 
-.fas
-{
-	margin: auto;
-}
+
 
 				/* formulaire de recherche */
 
 #recherche
 {
 	border: 1px rgb(242,242,242) solid;
+	border-radius: 0px 0px 0px 0px;
 	margin-right: 0%;
 	margin-left: 0%;
 	font-family: 'Raleway', sans-serif;
@@ -190,48 +177,43 @@ h1
 	height: 50px;
 
 }
-				/* bouton de recherche */
-.boutonrecherche
-{
-	margin-left: 0%;
-	border: 1px rgb(0,0,0,0) solid;
-	background-color: rgb(35,105,243);
-	font-family: 'Raleway', sans-serif;
-	font-size: 1em;
-	color: white;
-	font-weight: bold;
-	height: 50px;
-	border-radius: 0px 10px 10px 0px;
-	align-items: baseline;
-	flex-direction: row;
-	overflow: hidden;
-
-}
-.loupe
-{
-	margin-top: 0%;
-	text-indent: -9999px;
-  line-height: 0;
-}
-.searchword
-{
-margin-top:12px;
-}
 ::placeholder 
 { 
   color: black;
   opacity: 1;
 		/* entête filtres */
  }
-/* Focus */ *:focus::-webkit-input-placeholder { opacity: 0; } /* Chrome 56, Safari 9 */ *:focus:-moz-placeholder { opacity: 0; } /* FF 4-18 */ *:focus::-moz-placeholder { opacity: 0; } /* FF 19-50 */ *:focus:-ms-input-placeholder { opacity: 0; } /* IE 10+ */ *:focus::placeholder { opacity: 0; } /* Modern Browsers */
+*:focus::placeholder { opacity: 0; } /* Modern Browsers */
+
+				/* bouton de recherche */
+.boutonrecherche
+{
+	margin-left: 0%;
+	border: 1px rgb(0,0,0,0) solid;
+	background-color: #0065FC;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	color: white;
+	font-weight: bold;
+	height: 50px;
+	min-width: 50px;
+	border-radius: 0px 10px 10px 0px;
+	align-items: center;
+	flex-direction: row;
+
+}
+.loupe
+{
+	text-indent: -9999px;
+    line-height: 0;
+
+}
 .filtres
 {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	min-height: 100px;
-	
-	
 	flex-wrap: wrap;
 
 }
@@ -242,8 +224,6 @@ margin-top:12px;
 	font-size: 1em;
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
-
-
 }
 
 				/* les filtres */
@@ -260,21 +240,19 @@ margin-top:12px;
 	border-bottom: 2px #F2F2F2 solid;
 	border-left: 1px rgb(224,235,255) solid;
 	border-radius: 50px 50px 50px 50px;	
-
 }
 .filtresindiv:hover
 {
-	background-color: rgb(35,105,243); 
-
+	background-color: #0065FC; 
 }
 
 
 
 .iconsfiltres
 {
-	color: rgb(35,105,243);
+	color: #0065FC;
 	margin-right: 0%;
-	background-color: rgb(224,235,255);
+	background-color: #DEEBFF;
 	display: flex;
 	align-items: center;
 	width: 50px;
@@ -294,9 +272,7 @@ margin-top:12px;
 }
 .boutonsfiltres:hover
 {
-	background-color: rgb(35,105,243); 
-
-
+	background-color: #0065FC; 
 }
 
 		/* entêteinformations */
@@ -307,7 +283,7 @@ margin-top:12px;
 	justify-content: flex-start;
 	align-items: center;
 	word-wrap: break-word;
-	height: 100px;
+	flex-basis: 20%;
 	margin-bottom: 25px;
 	margin-top: 10px;
 
@@ -316,7 +292,7 @@ margin-top:12px;
 {
 	display: flex;
 	align-items: center;
-	color: rgb(35,105,243);
+	color: #0065FC;
 	margin-right: 20px;
 	border: 1px rgb(242,242,242) solid;
 	width: 20px;
@@ -348,11 +324,10 @@ margin-right: 50px;
 {
 
 	display: flex;
-	flex-direction: column;
 	flex-basis: 65%;
-	background-color: rgb(242,242,242);
+	flex-direction: column;
+	background-color: #F2F2F2;
 	border-radius: 20px 20px 20px 20px;	
-	flex-wrap: wrap;
 }
 
 				/* titre hébergement */
@@ -364,12 +339,7 @@ margin-right: 50px;
 	padding-left: 15px;
 	font-family: 'Raleway', sans-serif;
 	margin: 20px;
-	
 	padding: 0;
-
-	
-
-
 }
 
 				/* block hebergement */
@@ -401,6 +371,7 @@ margin-right: 50px;
 	display: flex;
 	flex-direction: column;
 	flex-basis: 100%;
+	background-color: white;
 
 }
 .descriptionannonce
@@ -409,11 +380,9 @@ margin-right: 50px;
 	justify-content: flex-start;
 	flex-direction: column;
 	font-family: 'Raleway', sans-serif;
-	
-	max-height: 30%;
+	min-height: 30%;
 	background-color: white;
 	margin-bottom: 0%;
-	word-wrap: break-word;
 	padding: 5px;
 
 }
@@ -442,13 +411,10 @@ margin-right: 50px;
 	min-height: 170px;
 	max-height: 170px;
 	object-position: left bottom;
-
-
 }
 .notchecked
 {
 	color: rgb(217,217,217);
-
 }
 
 .checked
@@ -468,9 +434,9 @@ margin-right: 50px;
 .resultatspopulaires
 {
 	display: flex;
+	flex-basis: 32%;
 	justify-content: space-around;
 	flex-direction: column;
-	flex-basis: 32%;
 	margin-bottom: 0%;
 	background-color: #F2F2F2;
 	border-radius: 20px 20px 20px 20px;
@@ -503,7 +469,8 @@ margin-right: 50px;
 	flex-basis: 90%;
 	justify-content: space-around;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 	margin-left:20px;
 	margin-right: 20px;
 
@@ -518,6 +485,7 @@ margin-right: 50px;
 	background-color: white;
 	margin-bottom: 25px;
 	box-shadow: 0px 0px 20px rgb(210,210,210);
+	height: 25%;
 }
 
 .boiteclicableformat2
@@ -531,11 +499,8 @@ margin-right: 50px;
 {
 	object-fit: cover;
 	width: 30%;
-	max-height: 175px;
 	object-position: left bottom;
-
-	margin: 0%;
-	
+	margin: 0%;	
 }
 .descriptionpopulaire
 {
@@ -582,6 +547,7 @@ margin-right: 50px;
 	justify-content: space-between;
 	max-height: 500px;
 	margin:10px;
+	
 	
 
 
@@ -748,8 +714,9 @@ overflow: hidden;
 			}
 			.searchword
 			{
-				 text-indent: -9999px;
-  line-height: 0;
+				 
+	text-indent: -9999px;
+    line-height: 0;
 			}
 			.loupe
 
@@ -794,14 +761,10 @@ overflow: hidden;
 				border-radius: 0px;
 				background-color: white;
 			}
-			.resultatsenphotos
-			{
-				
-				flex-direction: column;
-			}
 			.lienannonce
 			{
-				flex-basis: 100%;
+				flex-basis: 95%;
+				margin:25px;
 
 			}
 			.activites
@@ -828,9 +791,9 @@ overflow: hidden;
 				height: 250px;
 			}
 
-			.divers
+			.pieddepage
 			{
-				visibility: hidden;
+				flex-direction: column;
 			}
 
 #recherche
