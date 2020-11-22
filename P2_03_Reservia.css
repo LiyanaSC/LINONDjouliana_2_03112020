@@ -36,7 +36,7 @@ margin:0;
 /* style block */
 
 
-/* en tête */
+														/* en tête */
 .header
 {
 	display: flex;
@@ -44,6 +44,7 @@ margin:0;
 	margin-left: 50px;
 	margin-right: 50px;
 	flex-wrap: wrap;
+
 }
 
 
@@ -305,7 +306,7 @@ h1
 {
 	font-family: 'Raleway', sans-serif;
 }
-/* partie principale */
+												/* partie principale */
 main
 {
 display: flex;
@@ -319,7 +320,7 @@ margin-right: 50px;
 
 }
 
-		/* main résultat hébergement */
+												/* main résultat hébergement */
 .resultatshebergements
 {
 
@@ -430,7 +431,7 @@ margin-right: 50px;
 	font-family: 'Raleway', sans-serif;
 	
 }
- 		/*  main résultats populaire  */
+ 												/*  main résultats populaire  */
 .resultatspopulaires
 {
 	display: flex;
@@ -499,6 +500,7 @@ margin-right: 50px;
 {
 	object-fit: cover;
 	width: 30%;
+	height: 100%;
 	object-position: left bottom;
 	margin: 0%;	
 }
@@ -516,7 +518,7 @@ margin-right: 50px;
 
 
 }
-/*  main partie complémentaire: activités */
+										/*  main partie complémentaire: activités */
 .activites
 {
 	display: flex;
@@ -526,7 +528,7 @@ margin-right: 50px;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 50px;
-	
+
 
 }
 		/*  les activités */
@@ -535,53 +537,55 @@ margin-right: 50px;
 	display: flex;
 	flex-direction: row; 
 	justify-content: space-between;
+	max-height: 700px;
 }
-.boitexlimages
+
+			/*grande images*/
+.boiteimagesxl
 {
 	display: flex;
 	flex-basis: 23%;
 	border-radius: 20px 20px 20px 20px;
 	box-shadow: 0px 0px 20px rgb(210,210,210);
-	overflow: hidden;
+	
 }
-.activitéssize
+.activitessize
 {
 	display: flex;
-	
-	flex-direction: column;
+	flex-direction: column;	
+}
+.imagexl
+{
+		height: 90%;
+}
 
-	
-}
-/*.contenantimage
-{
-	display: flex;
-	flex-basis: 100%;
-	justify-content: center;
-	overflow: hidden;
-}*/
+
 .grossesimages
 {
 	display: flex;
-	flex-basis: 87%;
-	height: auto;
 	object-fit: cover;
+	height: 100%;
+	
 	width: 100%;
 	object-position: center;
 	margin: 0%;	
+	border-radius: 20px 20px 0px 0px;
 }
 .textesousimage
 {
-
-	min-height: 40px;
+	display: flex;
+	min-height: 50px;
 	color: black;
 	font-weight: bold;
 	padding: 15px;
 	align-items: center;
 	background-color: white;
 	margin: 0%;
-	
+	border-radius: 0px 0px 20px 20px;
+
 	
 }
+				/*images moyennes*/
 
 .activitéssizedouble
 {
@@ -591,67 +595,57 @@ margin-right: 50px;
 	justify-content: space-between;
 	flex-direction: column;
 }
+.boitemoyennesimages
+{
+	display: flex;
+	flex-direction: column;
+	height: 55%;
+	box-shadow: 0px 0px 20px rgb(210,210,210);
+	border-radius: 20px 20px 20px 20px;
+	
 
-.photoresponsive
+}
+.liensm
+{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	height: 100%;
+
+}
+
+.photosm
 {
 
 	display: flex;
-	flex-basis: 90%;
-	max-height: 80%;
 	object-fit: cover;
 	width: 100%;
 	object-position: center;
 	margin: 0%;	
-	max-height: 200px;
+	border-radius: 20px 20px 0px 0px;
+
 }
-.boitemoyennesimages
+.imageadaptativessm
 {
-	display: flex;
-	height: 55%;
-	flex-direction: column;
-	box-shadow: 0px 0px 20px rgb(210,210,210);
-	border-radius: 20px 20px 20px 20px;
-	
+		display: flex;
+	flex-basis: 90%;
 	overflow: hidden;
-}
-.moyennesimages
-{
-	display: flex;
-
-	width: 100%;
-	flex-direction: column;
-
 	
-
 }
 
+
+				/*petites images*/
 .boitepetitesimages
 {
 display: flex;
 height: 40%;
 border-radius: 20px 20px 20px 20px;
 box-shadow: 0px 0px 20px rgb(210,210,210);
-overflow: hidden;
-
-}
-.petitesimages
-{
-display: flex;
-width: 100%;
-flex-direction: column;
 
 
 }
-.photoresponsivesmall
-{
 
-	display: flex;
-	object-fit: cover;
-	width: 100%;
-	object-position: center;
-	margin: 0%;	
-	max-height: 119px;
-}
+
 /*  footer*/
 .pieddepage
 {
@@ -676,15 +670,12 @@ flex-direction: column;
 	/* Media Queries */
 @media screen and (max-width: 950px)
 {
-				.header 
+.header 
 			{
 				margin:0;
 				flex-basis: 100%;
 			}
-			main
-			{
-				margin:0;
-			}
+
 			.logo
 			{
 
@@ -700,7 +691,7 @@ flex-direction: column;
 					flex-basis: 100%;
 					
 				}
-				.ancres
+.ancres
 				{
 					display: flex;
 					flex-basis: 100%;
@@ -740,7 +731,7 @@ flex-direction: column;
 				flex-basis: 100%;
 				padding-left: 20px;
 			}
-			.recherche
+.recherche
 			{
 				display: flex;
 				flex-basis: 100%;
@@ -751,19 +742,18 @@ flex-direction: column;
 			.searchword
 			{
 				 
-	text-indent: -9999px;
-    line-height: 0;
+  			  display: none;
 			}
 			.loupe
 
-{
-	height: 30px;
-	width: 30px;
-	margin:auto;
-	color: white;
-	text-indent: 0;
-  line-height: 1em;
-}
+			{
+				height: 30px;
+				width: 30px;
+				margin:auto;
+				color: white;
+				text-indent: 0;
+			  line-height: 1em;
+			}
 			.textefiltre
 			{
 				
@@ -778,7 +768,13 @@ flex-direction: column;
 			{
 			margin:20px;	
 			}
+main
+			{
+				margin:0;
+				max-height: 4000px;
 
+			}
+/*populaires*/
 			.resultatspopulaires
 			{
 				order:1;
@@ -787,7 +783,7 @@ flex-direction: column;
 				padding: 0;
 				border-radius: 0px;
 			}	
-
+/*hébergement*/
 			.resultatshebergements
 			{
 				order:2;
@@ -796,37 +792,68 @@ flex-direction: column;
 				padding: 0;
 				border-radius: 0px;
 				background-color: white;
+				max-height: 2000px;
+
+		
 			}
 			.lienannonce
 			{
 				flex-basis: 95%;
+				max-height: 150px
 				margin:25px;
 
 			}
+/*activités*/
 			.activites
 			{
 				margin:0;
 				padding: 20px;
+			max-height: 2000px;
 
 			}
 			.resultatsactivites
 			{
+				margin-top:20px;
 				flex-direction: column;
 				padding: 0;
 				justify-content: space-around;
+				max-height: 2000px;
 
 			}
-			.boitexlimages
+			.boiteimagesxl
 			{
-				flex-basis: 15%;
-				height: 100%;
-				width: 50%;
+				flex-direction: column;
+				margin-bottom: 20px;
+			}
+			.boitemoyennesimages
+			{
+			margin-bottom: 20px;	
+			}
+			.boitepetitesimages
+			{
+			margin-bottom: 20px;	
 			}
 
+			.grossesimages
+			{
+
+			max-height: 150px;
+			}
+			.photosm
+			{
+				max-height: 150px
+			}
+			
+/*footer*/
 			.pieddepage
 			{
 				flex-direction: column;
+
 			}
+			/*.divers
+			{
+				visibility: hidden;
+			}*/
 
 #recherche
 {
