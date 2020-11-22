@@ -521,7 +521,7 @@ margin-right: 50px;
 {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 100%;
+	flex-basis: 10%;
 	justify-content: space-between;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -535,86 +535,122 @@ margin-right: 50px;
 	display: flex;
 	flex-direction: row; 
 	justify-content: space-between;
-	flex-basis: 100%;
-
-
 }
-.activitéssize
+.boitexlimages
 {
 	display: flex;
-	flex-basis: 25%;
-	flex-direction: column;
-	justify-content: space-between;
-	max-height: 500px;
-	margin:10px;
-	
-	
-
-
-	
-}
-.grossesimages
-{
-	display: flex;
-	flex-direction: column;
-	flex-basis: 100%;
-	justify-content: space-between;
+	flex-basis: 23%;
 	border-radius: 20px 20px 20px 20px;
 	box-shadow: 0px 0px 20px rgb(210,210,210);
 	overflow: hidden;
 }
-.contenantimage
+.activitéssize
+{
+	display: flex;
+	
+	flex-direction: column;
+
+	
+}
+/*.contenantimage
 {
 	display: flex;
 	flex-basis: 100%;
 	justify-content: center;
 	overflow: hidden;
+}*/
+.grossesimages
+{
+	display: flex;
+	flex-basis: 87%;
+	height: auto;
+	object-fit: cover;
+	width: 100%;
+	object-position: center;
+	margin: 0%;	
 }
 .textesousimage
 {
-	height: 40px;
+
+	min-height: 40px;
 	color: black;
 	font-weight: bold;
 	padding: 15px;
 	align-items: center;
 	background-color: white;
 	margin: 0%;
-}
-.photoresponsive
-{
-	object-fit: cover;
-	width: 100%;
 	
-	object-position: center;
-
+	
 }
 
-
-
-.moyennesimages
+.activitéssizedouble
 {
 	display: flex;
-	flex-basis: 60%;
+	flex-basis: 23%;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.photoresponsive
+{
+
+	display: flex;
+	flex-basis: 90%;
+	max-height: 80%;
+	object-fit: cover;
+	width: 100%;
+	object-position: center;
+	margin: 0%;	
+	max-height: 200px;
+}
+.boitemoyennesimages
+{
+	display: flex;
+	height: 55%;
 	flex-direction: column;
 	box-shadow: 0px 0px 20px rgb(210,210,210);
 	border-radius: 20px 20px 20px 20px;
-	margin-bottom: 20px;
+	
 	overflow: hidden;
+}
+.moyennesimages
+{
+	display: flex;
+
+	width: 100%;
+	flex-direction: column;
+
 	
 
 }
 
-
-.petitesimages
+.boitepetitesimages
 {
 display: flex;
-flex-basis: 35%;
-flex-direction: column;
-justify-content: space-between;
+height: 40%;
 border-radius: 20px 20px 20px 20px;
 box-shadow: 0px 0px 20px rgb(210,210,210);
 overflow: hidden;
 
+}
+.petitesimages
+{
+display: flex;
+width: 100%;
+flex-direction: column;
+
+
+}
+.photoresponsivesmall
+{
+
+	display: flex;
+	object-fit: cover;
+	width: 100%;
+	object-position: center;
+	margin: 0%;	
+	max-height: 119px;
 }
 /*  footer*/
 .pieddepage
@@ -770,25 +806,21 @@ overflow: hidden;
 			.activites
 			{
 				margin:0;
+				padding: 20px;
+
 			}
 			.resultatsactivites
 			{
 				flex-direction: column;
-				margin:20px;
-			}
+				padding: 0;
+				justify-content: space-around;
 
-			.grossesimages
-			{
-				height: 250px;
-			
 			}
-			.moyennesimages
+			.boitexlimages
 			{
-				height: 250px;
-			}
-			.petitesimages
-			{
-				height: 250px;
+				flex-basis: 15%;
+				height: 100%;
+				width: 50%;
 			}
 
 			.pieddepage
