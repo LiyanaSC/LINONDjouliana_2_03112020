@@ -231,7 +231,7 @@ h1
 .filtresindiv
 {
 	display: flex;
-	flex-basis: 20%;
+	justify-content: space-around;
 	margin-top: 25px;
 	margin-left: 25px;
 	margin-bottom: 15px;
