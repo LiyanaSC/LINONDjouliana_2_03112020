@@ -537,7 +537,7 @@ margin-right: 50px;
 	display: flex;
 	flex-direction: row; 
 	justify-content: space-between;
-	max-height: 700px;
+	max-height: 500px;
 }
 
 			/*grande images*/
@@ -665,6 +665,10 @@ box-shadow: 0px 0px 20px rgb(210,210,210);
 	flex-direction: column;
 	word-wrap: break-word;
 	
+}
+nav
+{
+	line-height: 1;
 }
 
 
