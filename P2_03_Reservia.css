@@ -775,6 +775,11 @@ nav
 			{
 				max-height: 350px;
 			}
+			.filtresindiv
+{
+	display: flex;
+margin: 10px;	
+}
 .informations
 			{
 			margin:20px;	
